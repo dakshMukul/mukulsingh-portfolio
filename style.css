@@ -8,7 +8,8 @@
   }
   
   :root{
-    --primary-color: #f59e0b;
+    --primary-color: #182d52;
+    --yello-color:#f59e0b;
     --off-white:#d1d5db;
     --dark-gray:#374151;
   }
@@ -74,10 +75,11 @@
     display: flex;
   }
   .hero-heading span{
-    color: var(--primary-color);
+    color: var(--yello-color);
   }
   .hero-detail-sec{
     max-width: 50%;
+    margin-left: 2rem;
   }
   .hero .hero-img{
     max-width: 500px;
