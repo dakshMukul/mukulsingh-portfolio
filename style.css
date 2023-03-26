@@ -8,7 +8,7 @@
   }
   
   :root{
-    --primary-color: #0c4a6e;
+    --primary-color: #f59e0b;
     --off-white:#d1d5db;
     --dark-gray:#374151;
   }
@@ -80,7 +80,7 @@
     max-width: 50%;
   }
   .hero .hero-img{
-    max-width: 350px;
+    max-width: 500px;
     display: block;
     margin: auto;
   }
