@@ -83,6 +83,7 @@
   }
   .hero .hero-img{
     max-width: 50%;
+    height: auto;
     display: block;
     margin: auto;
   }
@@ -96,6 +97,22 @@
   }
   .off-white {
     background-color: var(--off-white);
+  }
+  .section-tech-divs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--yello-color);
+    border-radius: 1rem;
+
+  }
+  .section-tech-divs > div{
+    padding: 1rem;
+  }
+  .tech-logo {
+      width: 3rem;
+      height: auto;
   }
   
   /* footer */
