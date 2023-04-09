@@ -86,14 +86,13 @@
     color: var(--yello-color);
   }
   .hero-div{
-    max-width: 50%;
     margin-left: 2rem;
   }
   .hero-div h1{
     text-align: center;
   }
   .hero-div-img{
-    max-width: 50%;
+    max-width: 40rem;
     align-items: center;
   }
   .hero-div img{
@@ -112,7 +111,7 @@
   }
   .section-tech-divs{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     border: 2px solid var(--yello-color);
