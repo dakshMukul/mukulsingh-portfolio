@@ -22,6 +22,9 @@
     max-width: 600px;
     margin: auto;
   }
+  .container-center > h1{
+    text-align: center;
+  }
   
   /*** links ***/
   .link{
@@ -72,20 +75,29 @@
   
   .hero{
     padding: 2rem;
+    width: 100wv;
+    height: auto;
+    margin: auto;
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
   .hero-heading span{
     color: var(--yello-color);
   }
-  .hero-detail-sec{
+  .hero-div{
     max-width: 50%;
     margin-left: 2rem;
   }
-  .hero .hero-img{
+  .hero-div h1{
+    text-align: center;
+  }
+  .hero-div-img{
     max-width: 50%;
-    height: auto;
-    display: block;
-    margin: auto;
+    align-items: center;
+  }
+  .hero-div img{
+    max-width: 100%;
   }
   /* section */
   .section{
