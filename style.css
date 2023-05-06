@@ -56,14 +56,20 @@
   
   /* nav */
   .navigation{
-   background-color: var(--primary-color); 
-   color: white;
-   border-bottom-left-radius: 1rem;
-   padding: 1.1rem 1rem;
+    position: sticky;
+    top: 0px;
+    background-color: var(--primary-color); 
+    opacity: 0.98;
+    color: white;
+    /* border-bottom-left-radius: 1rem; */
+    /* padding: 1.1rem 1rem; */
+    justify-content: space-between;
+    display: flex;
   }
   .navigation .nav-brand{
     font-weight: bold;
     font-size: 1.1rem;
+    padding: 1rem;
   }
   .navigation .link{
     color: white;
@@ -77,26 +83,25 @@
   /* heading */
   
   .hero{
-    padding: 2rem;
+    position: relative;
+    /* padding: 2rem; */
     width: 100wv;
     height: auto;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     flex-wrap: wrap;
   }
   .hero-heading span{
     color: var(--yello-color);
   }
-  .hero-div{
-    margin-left: 2rem;
-  }
-  .hero-div h1{
-    text-align: center;
-  }
-  .hero-div-img{
-    max-width: 40rem;
-    align-items: center;
+.hero-div-img{
+  
+}
+  .hero-img{
+    position: fixed;
+    width: 100vw;
+    z-index: -1;
   }
   .hero-div img{
     max-width: 100%;
@@ -138,7 +143,6 @@
     background-color: var(--primary-color);
     text-align: center;
     color: white;
-    border-top-right-radius: 1rem;
     padding: 2rem 0;
   }
   .footer .link{
